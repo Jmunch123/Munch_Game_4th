@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="100" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="Floor" tilewidth="64" tileheight="64" tilecount="4">
+  <image source="rocks.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="5" name="Walls" tilewidth="64" tileheight="64" tilecount="16">
+  <image source="Hedge.png" width="256" height="256"/>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bottom" width="50" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TMQ6DQBADwCXJ/98cGjoaRCL70IyETIlsdpuZ1/5si+d7fz4PyHSP9rBHc6Z7XGGPsUfVHu7DHqtnukd72KM50z3+Khu6vJPHe0OXd9J9dGa6R3vYoznTPdrDHs2Z7tEe9mjOdI/2sEdzpnu0xzP3aPiGq3m2R8M/cTXPpLt158+883SP/7wZAAAAAAAAAAAAAGa+R5lzqiBOAAA=
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="100">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2Y3W7DIAyF2cUmNZXS93/b9WJI1pnBP5h0nc4nIYpDSOKDwfRorR3Pcn+jWtJt5095vFEt6bZD2O5QNH9YPpLjVWPp0XlA0fxh+UiOV41XjwyaHjOtIvM/Gh8roI/wmahVdP4jMz08PvG28Z1mfRHrelOuSz2s+R5pSz4CfeU7We8oQT2ssbxt7d12jS37rPp/FB94vVpr7BNdI6zrnmdnsdYrz5oSvb6DSHys0seb5QEH2PBeb1vaqv2nxQPmASfY8F5vW9pW4mPmU4/GO/WIxMfMpx6Nd+qBZPYL1OOY2K+Kj+h6pOmh6eYZO6PHSg5q3WPlqjiGdp8Wi3KMaA6aOZNoNpkP4xjafZam1fvHjB37/q79Y8aOfb+P8/ksX8KePcNVnfWy9a3Nc+td/3VUj3tlvrqDUXxcGfcVePWoOrdn8zirv1ePqnP76jkmGh+jefVqPUZ4z+cju1dHq716rrTyK61k/m8Y+dsiGx9Yj4o2rpbDWf62WI0Pya3Z8+8cfAd+3ywOOpFzENqr8xzZ9uTCmN96x0d7dp2wsOa3tHc8edjIPpovo3gfvaf1HV49rLgY2WffiXM8k69G+1frcbbfczyTr0b7V+txFavPi+7nu1h9nic+qs9znR1xZe1v91Yz31fWpdk+NIvn/lv6MAOueZo90veAd0P7KJeSPsyAPtLsaMs+p3odX9UwQyS/iuwLFUT3lei5q2LdWqlHz82sO3+xvtqfu+pX+5F6/E89CCGEEEIIIYQQQgghhBBCCCGEEEIIIYTk+Aa3tfrzIE4AAA==
+  </data>
+ </layer>
+ <layer name="hostiles" width="50" height="100">
+  <properties>
+   <property name="hostile" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAB4MAJTL5cgTgAA
+  </data>
+ </layer>
+</map>

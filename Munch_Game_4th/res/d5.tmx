@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="100" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="Bottom" tilewidth="128" tileheight="128" tilecount="1">
+  <tile id="0">
+   <image width="128" height="128" source="../../../Desktop/rocks.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="Walls" tilewidth="64" tileheight="64" tilecount="1">
+  <tile id="0">
+   <image width="64" height="64" source="../../../Desktop/grasshedge.png"/>
+  </tile>
+ </tileset>
+ <layer name="bottom" width="50" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2U267EIAhFPfP/H31eCUELgpc2ayVknGpxbyBtbZ6/YDTxW01Ui9aVzVEVt+io9NPUWvNV75X1s2rV23t7eHxZZ07VIHPvKc0jLU819/TDc27l3HyhH1/Q6dWc7dst8SUPJ71U3H2Dj4jWnt43+PBoW+HjVK5mnD/dH61JrzU9zSMflu+qGjzl9vQu876uTcUMSV2t2fdFffT2Mt57NbB0WrpXzMOq8Gjy+L3Rm9Uz/f8NcaPeGUbz4vXnyWs93+F95EPvr9S32rP2odc3cLpe1bU/rWH1XFlzlmVmtqvyRu6v1Fc1W+1hf9dcRHxKzfqMx0cV2R5482TunO1DdrbaYO+2GdO+f06Pt4bU+lNR4eOpfit8SC/Rns5qq0D6sPowo2vX7PT2pI9TWrKzK33IZzup8rSjFzt6ZX2j9DpK5L2V/ajMv7OnAAAAAAAAAAAAAAAAAAAAAAAAAAAAt/MP+V1FjyBOAAA=
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="100">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2Uy47DQAgErfz/R+8p0sqagW4YP1Ml5WCHwV0O5LNt2+dhny9X5/gFDyWj6nEVs4xR/S95HDUrUe7Io/r+3+aRscpj1jPKoz6nsy9OvzM93P+C6lwo9zseWV433508qrvn9FRr9/eUjE6Ny9UeTrbO/LlzFeU502PU60gPJVulZ9XDyVP1cHq+xcPdjxGd2at6OCgeo++7O/2/xunpPivqreTreDgz1Jln1cNllUfUe3Z9F97o4czV6HzWc/XsZ+dGnk/z2HOVR4bj4cyZul+reKKHm6Pr4e5fZ+7VOX2Lh7qH1T1Vid5zVKf6qdddspmJ6lZ4VGahktX1VTnSY9Qju38XKnu/Pz/rFfVbzREemYu6W06W6mxmHhWXsz1G52ZnFVZ6qGcrWToeUf1qj9l3aq8VHipZ1uxc5bd1dkql6jGqWelR/VzxzDM8AAAAAAAAAAAAAAAAAAAAAAAAAAAA7sgfVDkkDiBOAAA=
+  </data>
+ </layer>
+ <layer name="hostiles" width="50" height="100">
+  <properties>
+   <property name="hostile" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAB4MAJTL5cgTgAA
+  </data>
+ </layer>
+</map>
